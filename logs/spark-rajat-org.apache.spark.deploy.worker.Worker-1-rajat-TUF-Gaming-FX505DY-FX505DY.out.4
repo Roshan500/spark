@@ -1,0 +1,31 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /home/rajat/spark-3.1.2-bin-hadoop3.2/conf/:/home/rajat/spark-3.1.2-bin-hadoop3.2/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://rajat-TUF-Gaming-FX505DY-FX505DY:7077
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+21/08/25 09:02:13 INFO Worker: Started daemon with process name: 12548@rajat-TUF-Gaming-FX505DY-FX505DY
+21/08/25 09:02:13 INFO SignalUtils: Registering signal handler for TERM
+21/08/25 09:02:13 INFO SignalUtils: Registering signal handler for HUP
+21/08/25 09:02:13 INFO SignalUtils: Registering signal handler for INT
+21/08/25 09:02:13 WARN Utils: Your hostname, rajat-TUF-Gaming-FX505DY-FX505DY resolves to a loopback address: 127.0.1.1; using 192.168.0.165 instead (on interface enp3s0)
+21/08/25 09:02:13 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+21/08/25 09:02:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/08/25 09:02:14 INFO SecurityManager: Changing view acls to: rajat
+21/08/25 09:02:14 INFO SecurityManager: Changing modify acls to: rajat
+21/08/25 09:02:14 INFO SecurityManager: Changing view acls groups to: 
+21/08/25 09:02:14 INFO SecurityManager: Changing modify acls groups to: 
+21/08/25 09:02:14 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(rajat); groups with view permissions: Set(); users  with modify permissions: Set(rajat); groups with modify permissions: Set()
+21/08/25 09:02:14 INFO Utils: Successfully started service 'sparkWorker' on port 41191.
+21/08/25 09:02:14 INFO Worker: Worker decommissioning not enabled, SIGPWR will result in exiting.
+21/08/25 09:02:15 INFO Worker: Starting Spark worker 192.168.0.165:41191 with 8 cores, 6.6 GiB RAM
+21/08/25 09:02:15 INFO Worker: Running Spark version 3.1.2
+21/08/25 09:02:15 INFO Worker: Spark home: /home/rajat/spark-3.1.2-bin-hadoop3.2
+21/08/25 09:02:15 INFO ResourceUtils: ==============================================================
+21/08/25 09:02:15 INFO ResourceUtils: No custom resources configured for spark.worker.
+21/08/25 09:02:15 INFO ResourceUtils: ==============================================================
+21/08/25 09:02:15 WARN Utils: Service 'WorkerUI' could not bind on port 8081. Attempting port 8082.
+21/08/25 09:02:15 WARN Utils: Service 'WorkerUI' could not bind on port 8082. Attempting port 8083.
+21/08/25 09:02:15 INFO Utils: Successfully started service 'WorkerUI' on port 8083.
+21/08/25 09:02:15 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://192.168.0.165:8083
+21/08/25 09:02:15 INFO Worker: Connecting to master rajat-TUF-Gaming-FX505DY-FX505DY:7077...
+21/08/25 09:02:15 INFO TransportClientFactory: Successfully created connection to rajat-TUF-Gaming-FX505DY-FX505DY/127.0.1.1:7077 after 98 ms (0 ms spent in bootstraps)
+21/08/25 09:02:16 INFO Worker: Successfully registered with master spark://rajat-TUF-Gaming-FX505DY-FX505DY:7077
+21/08/25 09:07:06 ERROR Worker: RECEIVED SIGNAL TERM
